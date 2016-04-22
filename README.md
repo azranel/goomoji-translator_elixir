@@ -1,6 +1,6 @@
 # GoomojiTranslator
 
-**TODO: Add description**
+Used to translate goomoji code into standard UTF-8 emoji codes.
 
 ## Installation
 
@@ -17,4 +17,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:goomoji_translator]]
         end
-
