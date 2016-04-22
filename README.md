@@ -17,3 +17,10 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:goomoji_translator]]
         end
+
+## Usage
+
+```elixir
+GoomojiTranslator.find_by_goomoji_code("53B")
+# => "1F4BC"
+```
