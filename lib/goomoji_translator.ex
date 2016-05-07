@@ -1,6 +1,5 @@
 defmodule GoomojiTranslator do
   def find_by_goomoji_code(code) do
-    File.read!(Path.expand("./config/file.txt"))
     File.read!(Path.expand("./config/file.txt")) |>
     String.split |>
     Enum.map(fn x -> String.split(x, ";") end) |>
