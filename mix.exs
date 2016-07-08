@@ -13,7 +13,7 @@ defmodule GoomojiTranslator.Mixfile do
   end
 
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :defmemo]]
   end
 
   defp package do
@@ -24,6 +24,6 @@ defmodule GoomojiTranslator.Mixfile do
   end
 
   defp deps do
-    []
+    [{:defmemo, "~> 0.1.0"}]
   end
 end
